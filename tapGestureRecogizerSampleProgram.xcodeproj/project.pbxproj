@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1C15B51FC4BC78007E503E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15B41FC4BC78007E503E /* AppDelegate.m */; };
+		CA1C15B81FC4BC78007E503E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15B71FC4BC78007E503E /* ViewController.m */; };
+		CA1C15BB1FC4BC78007E503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1C15B91FC4BC78007E503E /* Main.storyboard */; };
+		CA1C15BD1FC4BC78007E503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1C15BC1FC4BC78007E503E /* Assets.xcassets */; };
+		CA1C15C01FC4BC78007E503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1C15BE1FC4BC78007E503E /* LaunchScreen.storyboard */; };
+		CA1C15C31FC4BC78007E503E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15C21FC4BC78007E503E /* main.m */; };
+		CA1C15CD1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15CC1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m */; };
+		CA1C15D81FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15D71FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1C15C91FC4BC78007E503E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1C15A81FC4BC78007E503E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1C15AF1FC4BC78007E503E;
+			remoteInfo = tapGestureRecogizerSampleProgram;
+		};
+		CA1C15D41FC4BC78007E503E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1C15A81FC4BC78007E503E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1C15AF1FC4BC78007E503E;
+			remoteInfo = tapGestureRecogizerSampleProgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1C15B01FC4BC78007E503E /* tapGestureRecogizerSampleProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapGestureRecogizerSampleProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1C15B31FC4BC78007E503E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1C15B41FC4BC78007E503E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1C15B61FC4BC78007E503E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1C15B71FC4BC78007E503E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA1C15BA1FC4BC78007E503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1C15BC1FC4BC78007E503E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1C15BF1FC4BC78007E503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1C15C11FC4BC78007E503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1C15C21FC4BC78007E503E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1C15C81FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapGestureRecogizerSampleProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1C15CC1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapGestureRecogizerSampleProgramTests.m; sourceTree = "<group>"; };
+		CA1C15CE1FC4BC78007E503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1C15D31FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapGestureRecogizerSampleProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1C15D71FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapGestureRecogizerSampleProgramUITests.m; sourceTree = "<group>"; };
+		CA1C15D91FC4BC78007E503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1C15AD1FC4BC78007E503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15C51FC4BC78007E503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15D01FC4BC78007E503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1C15A71FC4BC78007E503E = {
+			isa = PBXGroup;
+			children = (
+				CA1C15B21FC4BC78007E503E /* tapGestureRecogizerSampleProgram */,
+				CA1C15CB1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests */,
+				CA1C15D61FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests */,
+				CA1C15B11FC4BC78007E503E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1C15B11FC4BC78007E503E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1C15B01FC4BC78007E503E /* tapGestureRecogizerSampleProgram.app */,
+				CA1C15C81FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.xctest */,
+				CA1C15D31FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1C15B21FC4BC78007E503E /* tapGestureRecogizerSampleProgram */ = {
+			isa = PBXGroup;
+			children = (
+				CA1C15B31FC4BC78007E503E /* AppDelegate.h */,
+				CA1C15B41FC4BC78007E503E /* AppDelegate.m */,
+				CA1C15B61FC4BC78007E503E /* ViewController.h */,
+				CA1C15B71FC4BC78007E503E /* ViewController.m */,
+				CA1C15B91FC4BC78007E503E /* Main.storyboard */,
+				CA1C15BC1FC4BC78007E503E /* Assets.xcassets */,
+				CA1C15BE1FC4BC78007E503E /* LaunchScreen.storyboard */,
+				CA1C15C11FC4BC78007E503E /* Info.plist */,
+				CA1C15C21FC4BC78007E503E /* main.m */,
+			);
+			path = tapGestureRecogizerSampleProgram;
+			sourceTree = "<group>";
+		};
+		CA1C15CB1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1C15CC1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m */,
+				CA1C15CE1FC4BC78007E503E /* Info.plist */,
+			);
+			path = tapGestureRecogizerSampleProgramTests;
+			sourceTree = "<group>";
+		};
+		CA1C15D61FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1C15D71FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m */,
+				CA1C15D91FC4BC78007E503E /* Info.plist */,
+			);
+			path = tapGestureRecogizerSampleProgramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1C15AF1FC4BC78007E503E /* tapGestureRecogizerSampleProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1C15DC1FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgram" */;
+			buildPhases = (
+				CA1C15AC1FC4BC78007E503E /* Sources */,
+				CA1C15AD1FC4BC78007E503E /* Frameworks */,
+				CA1C15AE1FC4BC78007E503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapGestureRecogizerSampleProgram;
+			productName = tapGestureRecogizerSampleProgram;
+			productReference = CA1C15B01FC4BC78007E503E /* tapGestureRecogizerSampleProgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1C15C71FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1C15DF1FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgramTests" */;
+			buildPhases = (
+				CA1C15C41FC4BC78007E503E /* Sources */,
+				CA1C15C51FC4BC78007E503E /* Frameworks */,
+				CA1C15C61FC4BC78007E503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1C15CA1FC4BC78007E503E /* PBXTargetDependency */,
+			);
+			name = tapGestureRecogizerSampleProgramTests;
+			productName = tapGestureRecogizerSampleProgramTests;
+			productReference = CA1C15C81FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1C15D21FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1C15E21FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgramUITests" */;
+			buildPhases = (
+				CA1C15CF1FC4BC78007E503E /* Sources */,
+				CA1C15D01FC4BC78007E503E /* Frameworks */,
+				CA1C15D11FC4BC78007E503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1C15D51FC4BC78007E503E /* PBXTargetDependency */,
+			);
+			name = tapGestureRecogizerSampleProgramUITests;
+			productName = tapGestureRecogizerSampleProgramUITests;
+			productReference = CA1C15D31FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1C15A81FC4BC78007E503E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = KLabs;
+				TargetAttributes = {
+					CA1C15AF1FC4BC78007E503E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CA1C15C71FC4BC78007E503E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA1C15AF1FC4BC78007E503E;
+					};
+					CA1C15D21FC4BC78007E503E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA1C15AF1FC4BC78007E503E;
+					};
+				};
+			};
+			buildConfigurationList = CA1C15AB1FC4BC78007E503E /* Build configuration list for PBXProject "tapGestureRecogizerSampleProgram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1C15A71FC4BC78007E503E;
+			productRefGroup = CA1C15B11FC4BC78007E503E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1C15AF1FC4BC78007E503E /* tapGestureRecogizerSampleProgram */,
+				CA1C15C71FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests */,
+				CA1C15D21FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1C15AE1FC4BC78007E503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1C15C01FC4BC78007E503E /* LaunchScreen.storyboard in Resources */,
+				CA1C15BD1FC4BC78007E503E /* Assets.xcassets in Resources */,
+				CA1C15BB1FC4BC78007E503E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15C61FC4BC78007E503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15D11FC4BC78007E503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1C15AC1FC4BC78007E503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1C15B81FC4BC78007E503E /* ViewController.m in Sources */,
+				CA1C15C31FC4BC78007E503E /* main.m in Sources */,
+				CA1C15B51FC4BC78007E503E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15C41FC4BC78007E503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1C15CD1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1C15CF1FC4BC78007E503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1C15D81FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1C15CA1FC4BC78007E503E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1C15AF1FC4BC78007E503E /* tapGestureRecogizerSampleProgram */;
+			targetProxy = CA1C15C91FC4BC78007E503E /* PBXContainerItemProxy */;
+		};
+		CA1C15D51FC4BC78007E503E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1C15AF1FC4BC78007E503E /* tapGestureRecogizerSampleProgram */;
+			targetProxy = CA1C15D41FC4BC78007E503E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1C15B91FC4BC78007E503E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1C15BA1FC4BC78007E503E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1C15BE1FC4BC78007E503E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1C15BF1FC4BC78007E503E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1C15DA1FC4BC78007E503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA1C15DB1FC4BC78007E503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1C15DD1FC4BC78007E503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1C15DE1FC4BC78007E503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1C15E01FC4BC78007E503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapGestureRecogizerSampleProgram.app/tapGestureRecogizerSampleProgram";
+			};
+			name = Debug;
+		};
+		CA1C15E11FC4BC78007E503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapGestureRecogizerSampleProgram.app/tapGestureRecogizerSampleProgram";
+			};
+			name = Release;
+		};
+		CA1C15E31FC4BC78007E503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tapGestureRecogizerSampleProgram;
+			};
+			name = Debug;
+		};
+		CA1C15E41FC4BC78007E503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tapGestureRecogizerSampleProgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tapGestureRecogizerSampleProgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1C15AB1FC4BC78007E503E /* Build configuration list for PBXProject "tapGestureRecogizerSampleProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1C15DA1FC4BC78007E503E /* Debug */,
+				CA1C15DB1FC4BC78007E503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1C15DC1FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1C15DD1FC4BC78007E503E /* Debug */,
+				CA1C15DE1FC4BC78007E503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1C15DF1FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1C15E01FC4BC78007E503E /* Debug */,
+				CA1C15E11FC4BC78007E503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1C15E21FC4BC78007E503E /* Build configuration list for PBXNativeTarget "tapGestureRecogizerSampleProgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1C15E31FC4BC78007E503E /* Debug */,
+				CA1C15E41FC4BC78007E503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1C15A81FC4BC78007E503E /* Project object */;
+}
