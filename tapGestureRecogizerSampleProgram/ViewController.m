@@ -7,15 +7,18 @@
 //
 
 #import "ViewController.h"
+#import "tapView.h"
 
-@interface ViewController ()
-
+@interface ViewController ()<tapViewDelegate>
+@property (weak, nonatomic) IBOutlet tapView *myTapButton;
+@property (weak, nonatomic) IBOutlet UITableView *myTabView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.myTapButton.delegate=self;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -25,5 +28,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+-(void)recordButtonDidTakePhoto{
+    NSLog(@"tapatio");
+    
+}
+-(void)recordButtonDidPressToRecord{
+    NSLog(@"Pagliaggo");
+    
+}
 @end

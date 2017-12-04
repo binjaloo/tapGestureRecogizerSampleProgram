@@ -15,6 +15,8 @@
 		CA1C15C31FC4BC78007E503E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15C21FC4BC78007E503E /* main.m */; };
 		CA1C15CD1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15CC1FC4BC78007E503E /* tapGestureRecogizerSampleProgramTests.m */; };
 		CA1C15D81FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15D71FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m */; };
+		CA1C15E71FC4C2CD007E503E /* tapView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1C15E61FC4C2CD007E503E /* tapView.m */; };
+		CAE2C7461FCC8A34003DE0E0 /* circleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE2C7451FCC8A34003DE0E0 /* circleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CA1C15D31FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapGestureRecogizerSampleProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1C15D71FC4BC78007E503E /* tapGestureRecogizerSampleProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapGestureRecogizerSampleProgramUITests.m; sourceTree = "<group>"; };
 		CA1C15D91FC4BC78007E503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1C15E51FC4C2CD007E503E /* tapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tapView.h; sourceTree = "<group>"; };
+		CA1C15E61FC4C2CD007E503E /* tapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapView.m; sourceTree = "<group>"; };
+		CAE2C7441FCC8A34003DE0E0 /* circleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circleButton.h; sourceTree = "<group>"; };
+		CAE2C7451FCC8A34003DE0E0 /* circleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				CA1C15B61FC4BC78007E503E /* ViewController.h */,
 				CA1C15B71FC4BC78007E503E /* ViewController.m */,
 				CA1C15B91FC4BC78007E503E /* Main.storyboard */,
+				CA1C15E51FC4C2CD007E503E /* tapView.h */,
+				CA1C15E61FC4C2CD007E503E /* tapView.m */,
+				CAE2C7441FCC8A34003DE0E0 /* circleButton.h */,
+				CAE2C7451FCC8A34003DE0E0 /* circleButton.m */,
 				CA1C15BC1FC4BC78007E503E /* Assets.xcassets */,
 				CA1C15BE1FC4BC78007E503E /* LaunchScreen.storyboard */,
 				CA1C15C11FC4BC78007E503E /* Info.plist */,
@@ -265,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1C15E71FC4C2CD007E503E /* tapView.m in Sources */,
 				CA1C15B81FC4BC78007E503E /* ViewController.m in Sources */,
 				CA1C15C31FC4BC78007E503E /* main.m in Sources */,
+				CAE2C7461FCC8A34003DE0E0 /* circleButton.m in Sources */,
 				CA1C15B51FC4BC78007E503E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,11 +443,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FNTLL22RH;
 				INFOPLIST_FILE = tapGestureRecogizerSampleProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +458,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FNTLL22RH;
 				INFOPLIST_FILE = tapGestureRecogizerSampleProgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenetic-labs.tapGestureRecogizerSampleProgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
